@@ -13,7 +13,7 @@
     </div>
 <label for="city">Enter City</label>
 <input oninput="get_q(this)" type="text" id="city"> 
-<div class=activate_buttons>
+<div class=buttons>
     <select name="units" id="units" onchange="define_units(this)">
         <option value="PickOne">Pick One</option>
         <option value="imperial">Imperial</option>
@@ -21,9 +21,7 @@
     </select>
     <button class="btn btn-secondary weather_button" onclick="search(), remove()">Get Weather</button>
 </div>
-<div id="not_activated">
-    <p>You have not activated the weather finder yet.</p>
-</div>
+
 <section id="user_generated_content">
     <div id="city_header">
     </div>
