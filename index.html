@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Weather According to Matt</title>
 </head>
-<body>
-
-    <div class="input">
-        <input type="text" class="inputValue" placeholder="Enter a City">
-        <input type="submit" value="Submit" class="button">
+<div class="title">
+    <h1>Today's Weather</h1>
     </div>
-
-    <div class="display">
-        <h1 class="name"></h1>
-        <p class="desc"></p>
-        <p class="temp"></p>
+<label for="city">Enter City</label>
+<input oninput="get_q(this)" type="text" id="city"> 
+<div class=activate_buttons>
+    <select name="units" id="units" onchange="define_units(this)">
+        <option value="PickOne">Pick One</option>
+        <option value="imperial">Imperial</option>
+        <option value="metric">Metric</option>
+    </select>
+    <button class="btn btn-secondary weather_button" onclick="search(), remove()">Get Weather</button>
+</div>
+<div id="not_activated">
+    <p>You have not activated the weather finder yet.</p>
+</div>
+<section id="user_generated_content">
+    <div id="city_header">
     </div>
-    <script src="assets/script.js"></script>
+    <div class="weather_content">
+        <div id="left_col"></div>
+       <div id="right_col"></div>                   
+    </div>
+</section>
+<script src="script.js"></script>
 </body>
 </html>
