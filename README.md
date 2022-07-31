@@ -4,7 +4,7 @@
 In this project my motivation was to create a user friendly Weather Dashbaord. 
 
 ## Installation 
-My goals for this project were to create a Weather Dashbaord using the openweather API, bootstrap, and java script to log and call on the API city weather information, and display for the user.
+My goals for this project were to utilize the openweather API, bootstrap, and java script to log and call on the API city weather information, and display for the user.
 
 ## Usage
 
