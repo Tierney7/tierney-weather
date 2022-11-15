@@ -16,7 +16,7 @@ My goals for this project were to utilize the openweather API, bootstrap, and ja
 W3schools.com
 KU bootcamp tutor 
 youtube.com "web dev tools"
-Friend/tutor Paige Jones 
+Friend/tutor Paige Jones. Github: paigexx
 
 
 ## License 
