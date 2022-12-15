@@ -16,7 +16,6 @@ function get_q(element){
 function define_units(element){
     units = element.value
 
-
 }
 
 function remove(){
@@ -50,7 +49,6 @@ function rightCol_content(data){
 
 }
 
-
 async function search(){
 
     var response = await fetch("http://api.openweathermap.org/data/2.5/weather?q=" + current_q + "&units=" + units + "&appid=88a0c91c09104aee7dc546338ab658a0") 
@@ -59,6 +57,4 @@ async function search(){
     city_header.innerHTML = city_header_section(weather_data)
     rightCol.innerHTML = rightCol_content(weather_data)
     leftCol.innerHTML = leftCol_content(weather_data)
-    
-
 }
