@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="card">
@@ -17,8 +17,10 @@
         <div class="weather"></div>
         <h2 class="city">Weather in Kansas City</h2>
         <div class="temp">51°C</div>
-        <img src="" alt="" class="icon" />
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
         <div class="description">Cloudy</div>
+        </div>
         <div class="humidity">Humidity: 60%</div>
         <div class="wind">Wind speed: 6.2 km</div>
     </div>
