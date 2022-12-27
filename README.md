@@ -1,4 +1,4 @@
-# Weather Dashboard
+# Weather App
 
 ## Description
 In this project my motivation was to create a user friendly Weather Dashbaord. 
@@ -8,14 +8,14 @@ My goals for this project were to utilize the openweather API, bootstrap, and ja
 
 ## Usage
 
+![alt text](Assets/Images/Screenshot%20(72).png)
 
+![alt text](Assets/Images/Screenshot%20(73).png)
 
 ## Credits
 W3schools.com
 KU bootcamp tutor 
 youtube.com "web dev tools"
-Friend/tutor Paige Jones. Github: paigexx
-
 
 ## License 
 
