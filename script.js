@@ -4,7 +4,7 @@ let weather = {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
             +
-             city +
+             city + 
              "&units=imperial&appid=" +
              this.apiKey
         )
@@ -24,7 +24,7 @@ let weather = {
     document.querySelector(".description").innerText = description;
     document.querySelector(".temp").innerText = temp + "°F";
     document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
-    document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
+    document.querySelector(".wind").innerText = "Wind speed: " + speed + " MPH";
     document.querySelector(".weather").classList.remove("loading");
     document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')"
     },
